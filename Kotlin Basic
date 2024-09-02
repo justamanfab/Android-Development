@@ -1,0 +1,143 @@
+class Person{
+    var name : String
+    var age : Int
+
+    constructor(x: String, y : Int){
+        this.name = x
+        this.age = y
+    }
+    constructor(X : String){
+        this.name = x
+        this.age = 0
+    }
+    constructor(){
+        this.name = "Rahul"
+        this.age  = 32
+    }
+
+}
+fun intro() {
+    println("My name is $name and age is $age")
+}
+fun main() {
+    //    val letter: Char
+    //    letter = 'A'
+    //    print("$letter\n")
+    //    println("Escape Sequences")
+    //    println('\n')
+    //    println('\$')
+    //    println('\\')
+    //    println("Done\n")
+    //
+    //    val alph: String
+    //    alph = """This is my
+    //         first program
+    //         of kotlin"""
+    //    println("$alph")
+    //
+    //    // Boolean
+    //    val a: Boolean = true
+    //    println(a)
+    //
+    //    // Array
+    //    val squares = Array(5) { i -> i * i }
+    //    println(squares[0])
+    //
+    //    // Define the numbers array
+    //    val numbers = arrayOf(1, 2, 3, 4, 5)
+    //
+    //    val size = numbers.size
+    //    println("Size of numbers array: $size")
+    //
+    //    if (numbers.isEmpty()) {
+    //        println("numbers array is empty: $size")
+    //    } else {
+    //        println("Array is not empty")
+    //    }
+
+    // function
+
+//    fun sum(): Int {
+//        var a = 20
+//        var b = 23
+//        val c = b + a
+//        return c
+//    }
+//
+//    fun sum1(number1 : Int, number2: Int){
+//        val add  =  number1 + number2;
+//        println(add);
+//    }
+//
+//    // recursive function
+//    var count = 0;
+//    fun rec(){
+//        count ++;
+//        if(count <= 5){
+//            println("Hello" + count);
+//            rec();
+//        }
+//    }
+//
+//
+//    val result = sum() // Call the sum function
+//    println("Sum is: $result") // Print the result
+//
+//    val result2 = rec();
+//    println("Sum is: $result2")
+//}
+
+// Q. find factorial, sum of n numbers, find sum of even number for given range of 1 to n using recursion and function
+// calling and also make class, create two objects of class with differnt values of parameter of class
+
+//class car{
+//    var make : String = "";
+//    var model : String = "";
+//    var year : Int = 0;
+//
+//    fun getInfo() : String{
+//        return "$make $ model"
+//    }
+
+    // Factorial using recursion
+//fun factorial(n: Int): Int {
+//    return if (n == 0) 1 else n * factorial(n - 1)
+//}
+//
+//    fun main() {
+//        val number = 5
+//        println("Factorial of $number is: ${factorial(number)}")
+//    }
+
+    // Sum of First n Numbers Using Recursion
+//    fun sumOfNumbers(n: Int): Int {
+//        return if (n == 0) 0 else n + sumOfNumbers(n - 1)
+//    }
+//
+//    fun main() {
+//        val number = 10
+//        println("Sum of first $number numbers is: ${sumOfNumbers(number)}")
+//    }
+//
+//    // Sum of Even Numbers for Given Range of 1 to n Using Recursion
+//    fun sumOfEvenNumbers(n: Int): Int {
+//        return if (n < 2) 0 else (if (n % 2 == 0) n else 0) + sumOfEvenNumbers(n - 1)
+//    }
+//
+//    fun main() {
+//        val number = 10
+//        println("Sum of even numbers from 1 to $number is: ${sumOfEvenNumbers(number)}")
+//    }
+//
+////    // Kotlin Class with Two Objects Having Different Parameter Values
+//    class Person(val name: String, val age: Int)
+//
+////    fun main() {
+//        val person1 = Person("Alice", 25)
+//        val person2 = Person("Bob", 30)
+//
+//        println("Person 1: Name = ${person1.name}, Age = ${person1.age}")
+//        println("Person 2: Name = ${person2.name}, Age = ${person2.age}")
+//    }
+    var a =
+}
